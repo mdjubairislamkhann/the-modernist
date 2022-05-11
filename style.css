@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.full_body{
+    background-image: url(assets/img/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    border-top: 5px solid #76c38f;
+}
+header{
+    background-color: #6666669c;
+
+}
+.container{
+    padding: 5% 10%;
+}
+.header_top {
+    display: flex;
+    justify-content: space-between;
+}
+img.logo {
+    width: 205px;
+    height: 52px;
+}
+i.fa-solid.fa-bars {
+    display: none;
+}
+menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+menu ul li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 0px;
+}
+
+menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    transition: .3s;
+    padding: 10px 20px; 
+    font-size: 13px;
+ }
+
+menu ul li a:hover {
+    background-color: #76c38f; 
+    opacity: none; 
+    border-radius: 10px; 
+}
+.banner {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+a.previous {
+    margin-top: 150px;
+    color: #76c38f;
+    font-size: 100px;
+    display: block;
+}
+
+a.next {
+    margin-top: 150px;
+    color: #76c38f;
+    font-size: 100px;
+    display: block;
+}
+
+.banner_content h1 {
+    font-size: 46px;
+    color: #ffff;
+}
+
+.banner_content {
+    margin-top: 91px;
+}
+
+.banner_content p {
+    color: #ffff;
+    margin-top: 24px;
+    font-size: 12px;
+}
+
+button {margin-top: 24px;padding: 10px 20px;border: none;background-color: #76c38f;border-radius: 10px;}
+
+button a {color: #fff;text-decoration: none; font-size: 13px;}
+
+button a span {font-size: 7px;}
+.banner_img img {width: 380px;height: 380px;border-radius: 50%;border: 30px solid #6b6b6b;}
+.single_service_box {width: 22%;margin-left: 32px;text-align: center;background-color: #ffff;padding: 30px 0; transition: .3s; }
+.single_service_box:hover {background-color: #76c38f;}
+.service {display: flex;justify-content: space-between;}
+.single_service_box h1 {color: #333333;font-size: 32px;}
+.single_service_box p {font-size: 12px;margin-top: 11px;/* width: 150px; *//* text-align: center; */}
+.latest_work h1 {text-align: center;color: #fff;background-color: #303030;width: 350px;padding: 10px;margin: auto;border-radius: 10px;}
+.work {margin-top: 36px;}
+
+.single_work_box {width: 30%;float: left;text-align: center;margin-left: 24px;margin-bottom: 25px;/* border: 3px solid #8df3bb; */}
+
+
+.latest_work:after {content: '';clear: both;display: block;}
+
+.single_work_box p {background: #303030;color: #fff;display: inline-block;width: 290px;padding: 6px 0;}
+
+.single_work_box img {margin-bottom: -4px;}
+.footer_widget {background-color: #303030;display: flex;justify-content: space-between;}
+.footer_widget_single_box {width: 22%;float: left;margin-left: 30px;}
+.footer_widget_single_box h1 {color: #fff;font-size: 16px;margin-bottom: 30px;}
+.post h3 {color: #76c38f;font-size: 13px;margin-bottom: 12px;}
+.post_date h4 span {color: #76c38f;}
+.post_date h4 {color: #666666;font-size: 10px;}
+.post_date h6 {margin-top: 12px;margin-bottom: 12px;color: #979797;font-size: 10px;}
+.post p {color: #979797;font-size: 14px;}
+button.post_btn {background: none;padding: 0;text-transform: capitalize;}
+button.post_btn a {color: #76c38f;font-size: 13px;}
+.menu ul {margin: 0;padding: 0;}
+.menu ul li {list-style: none;}
+.menu ul li a span {font-size: 10px;margin-right: 4px; color: #979797;}
+.menu ul li a {text-decoration: none;vertical-align: middle;color: #76c38f;border-bottom: 2px solid #404040;display: block;padding: 5px;}
+.latest_tweets {margin-bottom: 50px;font-size: 13px;color: #979797;}
+.latest_tweets p span {color: #76c38f;}
+.latest_tweets p {width: 190px;}
+.name input {width: 100%;padding: 3px 10px; color: #76c38f; background: #222222;border: none;outline: none;margin-bottom: 15px;height: 30px;border-radius: 10px;}
+.email input {width: 100%;padding: 3px 10px; color: #76c38f; background: #222222;border: none;outline: none;margin-bottom: 15px;height: 30px;border-radius: 10px;}
+.subject input {width: 100%;padding: 3px 10px; color: #76c38f; background: #222222;border: none;outline: none;margin-bottom: 15px;height: 30px;border-radius: 10px;}
+.message textarea {width: 100%;padding: 3px 10px; color: #76c38f; background: #222222;border: none;outline: none;margin-bottom: 15px;border-radius: 10px;}
+button.form_btn {margin-top: 0;width: 260px; cursor: pointer; }
+footer {background-color: #2b2b2b;border-top: 2px solid;}
+.footer {display: flex;justify-content: space-between;color: #979797;}
+
+
+
+
